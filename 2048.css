@@ -1,0 +1,63 @@
+#game {
+  position: relative;
+  margin: 0em auto;
+  height: 666px;
+  width: 500px;
+  background-color: #FBF8F1;
+}
+#grid {
+  position: relative;
+  border-style: none;
+  border-radius: 5px;
+  top: 166px;
+  left: 25px;
+  height: 450px;
+  width: 450px;
+  background-color: #BDAD9E;
+}
+#title {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+  color: #BDAD9E;
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+}
+.score {
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+  text-align: center;
+  background-color: #BDAD9E;
+  border-radius: 5px;
+  width: 150px;
+  height: 75px;
+}
+
+.defaultTile {
+  background-color: #CDC1B5;
+  border-style: none;
+  border-radius: 5px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.tile {
+  border-style: none;
+  border-radius: 5px;
+  position: absolute;
+  font-size: 28px;
+  text-align: center;
+  line-height: 92px;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+  transition: left 0.2s, top 0.2s, width 0.2s, height 0.2s;
+}
+
