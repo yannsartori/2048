@@ -1,5 +1,6 @@
 # 2048
 2048 made with Javascript and CSS
+See it in action at https://cs.mcgill.ca/~ysarto/projectsDir/2048
 ## Goals
 This was my *first* attempt at using JavaScript to make something more advanced than just changing CSS on page loads [so please don't judge me too harshly :)]. As such, my goal with this project wasn't anything too extreme-- really just to get myself comfortable with JavaScript and CSS, primarily: 
 - dealing with user-generated events 
